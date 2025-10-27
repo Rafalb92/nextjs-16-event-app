@@ -19,7 +19,11 @@
     "rules": {
       "recommended": true,
       "suspicious": {
-        "noUnknownAtRules": "off"
+        "noUnknownAtRules": "off",
+        "noRedeclare": "info"
+      },
+      "style": {
+        "noNonNullAssertion": "info"
       }
     },
     "domains": {
@@ -27,6 +31,7 @@
       "react": "recommended"
     }
   },
+
   "assist": {
     "enabled": true,
     "actions": {

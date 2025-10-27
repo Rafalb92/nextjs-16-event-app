@@ -10,6 +10,7 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "mongoose": "^8.19.2",
     "next": "16.0.0",
     "ogl": "^1.0.11",
     "posthog-js": "^1.280.1",
